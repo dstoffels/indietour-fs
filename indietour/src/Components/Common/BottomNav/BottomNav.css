@@ -1,0 +1,26 @@
+.bottom-nav-wrapper {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/* padding-bottom: 1vh; */
+	/* background-color: rgb(68, 68, 68) !important; */
+}
+
+/* button.Mui-selected {
+	--selected-color: rgb(116, 171, 241);
+	border-top: 3px solid var(--selected-color);
+
+	color: var(--selected-color);
+	transition: all 0.3s ease-out;
+} */
+
+button.Mui-selected svg.MuiSvgIcon-root path {
+	color: var(--selected-color);
+	transition: all 0.3s ease-out;
+}
+
+button.Mui-selected span {
+	color: var(--selected-color);
+	transition: all 0.3s ease-out;
+}

@@ -1,0 +1,6 @@
+@media only screen and (max-width: 400px) {
+	.tour-select {
+		font-size: small;
+		max-width: 70vw;
+	}
+}

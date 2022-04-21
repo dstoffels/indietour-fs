@@ -1,0 +1,78 @@
+#root {
+	white-space: pre-line;
+}
+
+.color-tester {
+	color: rgb(177, 209, 236);
+}
+
+.mobile-max-w {
+	max-width: 300px !important;
+}
+
+.upper-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.flex-start {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.stretch {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: stretch;
+	width: 100%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	-webkit-text-fill-color: rgb(255, 255, 255);
+	-webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.02) inset;
+	transition: background-color 5000s ease-in-out 0s;
+}
+
+*::-webkit-scrollbar {
+	width: 0.3rem;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+*::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}

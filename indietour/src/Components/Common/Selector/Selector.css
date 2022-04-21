@@ -1,0 +1,10 @@
+.selector {
+	text-align: left;
+	max-width: 350px;
+}
+
+@media only screen and (max-width: 400px) {
+	.selector {
+		font-size: small;
+	}
+}
