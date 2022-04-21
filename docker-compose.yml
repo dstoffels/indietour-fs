@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  ui:
+    container_name: ui
+    image: dstoffels/indietour:latest
+  api:
+    container_name: api
+    image: dstoffels/indietourapi:latest
+  nginx:
+    container_name: nginx
+    image: dstoffels/indietournginx:latest
+    ports:
+      - '80:80'
+    depends_on:
+      - ui
+      - api
