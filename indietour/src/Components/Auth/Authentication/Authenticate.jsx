@@ -14,10 +14,10 @@ const Authenticate = ({ children }) => {
 			return null;
 		}
 
-		if (!auth?.currentUser?.emailVerified) {
-			navigate(WAITING_ROOM);
-			return null;
-		}
+		// if (!auth?.currentUser?.emailVerified) {
+		// 	navigate(WAITING_ROOM);
+		// 	return null;
+		// }
 
 		if (!user.hasValidPW) {
 			navigate(PASSWORD);

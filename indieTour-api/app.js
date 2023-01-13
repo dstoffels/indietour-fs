@@ -5,7 +5,7 @@ const cors = require('cors');
 // setup express app
 const app = express();
 
-const PORT = 3000;
+const PORT = 5000;
 
 // MIDDLEWARE
 const json = bodyParser.json();

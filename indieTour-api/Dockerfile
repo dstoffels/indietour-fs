@@ -8,7 +8,7 @@ RUN npm ci --only=production
 
 COPY ./ ./
 
-EXPOSE 3000
+EXPOSE 8000
 
 CMD ["node", "app.js"]
 
